@@ -7,6 +7,7 @@ export default new Vuex.Store({
   state: {
     userinfo: {
       nickname: localStorage.getItem("nickname"),
+      isAdmin: false,
     },
   },
   getters: {},
